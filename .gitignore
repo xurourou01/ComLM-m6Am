@@ -11,9 +11,7 @@ __pycache__/
 .vscode/
 
 # 项目特定 - 大文件
-checkpoints/
 features/
-*.pt
 *.npz
 *.bin
 *.zip
