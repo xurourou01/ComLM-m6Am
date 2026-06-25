@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE (PyCharm)
+.idea/
+*.iml
+.vscode/
+
+# 项目特定 - 大文件
+checkpoints/
+features/
+*.pt
+*.npz
+*.bin
+*.zip
+
+# 其他
+*.log
+*.tmp
+*.temp
+.DS_Store
