@@ -102,4 +102,4 @@ After testing, a best model is obtained from each of the ten sub-training sets, 
 
 
 ## Citation
-"ComLM-m6Am: Combining multiple pre-trained RNA language models for accurate N6,2'-O-dimethyladenosine site prediction"
+Ying Xu #, Qianpei Liu #, Yiming Li, Wenkang Wang, Min Li, and Min Zeng*,"ComLM-m6Am: Combining multiple pre-trained RNA language models for accurate N6,2'-O-dimethyladenosine site prediction"
