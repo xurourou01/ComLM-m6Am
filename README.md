@@ -88,7 +88,7 @@ If you don't modify the file, the default parameters will be used for training. 
 python train.py
 ```
 
-After training, the models obtained from ten-fold cross-validation on the ten sub-training sets will be saved in the `checkpoints` folder, and you can use these models to perform testing.
+`train.py` performs ten‑fold cross‑validation on the ten sub-training sets, primarily for model selection and hyperparameter tuning, while the models saved in the `checkpoints` folder are used for internal validation.
 
 ### Testing
 For testing, You can run the following command to get the prediction results:
@@ -97,7 +97,7 @@ For testing, You can run the following command to get the prediction results:
 python test.py
 ```
 
-After testing, a best model is obtained from each of the ten sub-training sets, and the final evaluation results are derived by taking the average of the outputs from all ten best models.
+In the testing stage, models are retrained from scratch, with each sub‑training set independently producing one final model. The final performance is evaluated by averaging the predictions from all ten models.
 
 
 
