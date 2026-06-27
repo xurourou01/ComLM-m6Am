@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 ## Usage
 ### Data
-The training and testing data are in the `dataset` folder, and the different sequence information extracted by the pre-trained language models RNA-FM, SpliceBERT, and BiRNA-BERT is https://pan.quark.cn/s/f504d6325a19  提取码：n9fM.
+The training and testing data are in the `dataset` folder, and the different sequence information extracted by the pre-trained language models RNA-FM, SpliceBERT, and BiRNA-BERT is at https://pan.quark.cn/s/f504d6325a19  提取码：n9fM.
 
 ### How to use your own data
 First, you need to store your dataset in the `dataset` folder.
